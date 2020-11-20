@@ -29,9 +29,11 @@ function SearchUser(props) {
             setUserInput({ ...userInput, username: event.target.value })
           }
         />
-        <button className="bg-yellow-300 hover:bg-blue-400 text-blue-dark font-semibold hover:text-white py-1 px-4 border border-blue hover:border-transparent rounded my-4">
-          Button
-        </button>
+        {userInput.username && (
+          <button className="bg-yellow-300 hover:bg-blue-400 text-blue-dark font-semibold hover:text-white py-1 px-4 border border-blue hover:border-transparent rounded my-4">
+            Show User
+          </button>
+        )}
         <small>{userInput?.error}</small>
       </form>
     </div>

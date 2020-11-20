@@ -5,7 +5,7 @@ import SearchUser from "./SearchUser";
 import UserCard from "./UserCard";
 import "@reach/dialog/styles.css";
 
-function Header() {
+function HomePage() {
   const [primaryUser, setPrimaryUser] = useState("");
   const [secondaryUser, setSecondaryUser] = useState("");
   const [commonUsers, setCommonUsers] = useState("");
@@ -66,4 +66,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HomePage;

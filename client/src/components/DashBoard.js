@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import HomePage from "./HomePage";
 
 function DashBoard() {
   return (
@@ -117,7 +117,7 @@ function DashBoard() {
         </div>
       </nav>
       <div className="px-16 py-4 text-gray-700 bg-gray-200 h-screen w-screen">
-        <Header />
+        <HomePage />
       </div>
     </div>
   );
